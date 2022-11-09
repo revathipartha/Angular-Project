@@ -1,0 +1,17 @@
+.value {
+    width: 80%;
+    height: 200%;
+    margin-left: 10%;
+
+}
+
+h2 {
+    background-color: rgb(0, 139, 5);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px rgb(0, 251, 0);
+    box-shadow: 10px 10px 5px black;
+}

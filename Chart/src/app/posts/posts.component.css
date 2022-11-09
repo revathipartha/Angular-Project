@@ -1,0 +1,26 @@
+table {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 90%;
+}
+
+td,
+th {
+  width: 20%;
+}
+
+h2 {
+  background-color: aqua;
+  color: darkred;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 10px 10px 5px blue;
+
+}

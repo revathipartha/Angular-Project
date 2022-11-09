@@ -1,0 +1,15 @@
+<h1>EDIT FORM</h1>
+<br><br>
+<div class="edit">
+    <form [formGroup]="editForm" (ngSubmit)="edit()">
+        <label>TITLE:</label>&nbsp;&nbsp;&nbsp;
+        <input formControlName="title" type="text">
+        <br><br>
+        <label>BODY:</label>&nbsp;&nbsp;&nbsp;
+        <input formControlName="body" type="text">
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>

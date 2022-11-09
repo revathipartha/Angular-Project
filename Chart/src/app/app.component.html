@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+
+    <button mat-button (click)="opened=!opened">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1>Angular</h1>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav [(opened)]="opened" mode="side">
+    <mat-list>
+      <mat-list-item><a routerLink="">Home</a></mat-list-item>
+      <mat-list-item><a routerLink="/posts">Posts</a></mat-list-item>
+      <mat-list-item><a routerLink="/detailspage">Details</a></mat-list-item>
+      <mat-list-item><a routerLink="/edit/:id">Edit</a></mat-list-item>
+    </mat-list>
+
+  </mat-sidenav>
+  <mat-sidenav-container>
+
+    <router-outlet></router-outlet>
+  </mat-sidenav-container>
+
+</mat-sidenav-container>
